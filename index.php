@@ -29,7 +29,6 @@
     
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
-
     <style>
       .geocoder {
         position: absolute;
@@ -50,7 +49,7 @@
     <div id='map' style='width: 600px; height: 400px;'></div>
     <div id="geocoder" class="geocoder"></div>
     <script>
-      mapboxgl.accessToken = <?php echo '"'.$_ENV['API_KEY'].'"'; ?>;
+      mapboxgl.accessToken = <?php echo '"'.$_ENV['accessToken'].'"'; ?>;
       
       var map = new mapboxgl.Map({
         container: 'map',

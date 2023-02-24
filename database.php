@@ -11,5 +11,6 @@
   $sql = mysqli_query($connect, $query);
 
   $query = "INSERT INTO Destinasi(lokasi, latitude, longitude) VALUES('Bandung, Jawa Barat, Indonesia', '-6.934469', '107.604954'), ('Bandung Barat, Jawa Barat, Indonesia', '-6.854814', '107.52404') , ('Parongpong, Bandung Barat, Jawa Barat, Indonesia', '-6.843022', '107.578365')";
+  
   $sql = mysqli_query($connect, $query);
 ?>
